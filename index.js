@@ -1,5 +1,5 @@
 const express = require('express');
-const port = 8000;
+const port = process.env.PORT || 5000;
 const parser = require('body-parser');
 const db = require('./config/mongoose');
 const TodoList = require('./schema/createschema');

@@ -11,7 +11,11 @@ const List = new mongoose.Schema({
     date:{
         type : String,
         required: true
+    },
+    checked:{
+        type: Boolean
     }
+    
 
 });
 

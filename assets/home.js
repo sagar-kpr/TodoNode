@@ -24,10 +24,12 @@ document.addEventListener('click', function(e){
                 if(data == "true"){
                     list[i].style.textDecoration = "none";
                     list[i].setAttribute('data-value',"false");
+                    
                     return;
                 }
                 list[i].style.textDecoration = "line-through";
                 list[i].setAttribute('data-value',"true");
+                
             }
         }
     }

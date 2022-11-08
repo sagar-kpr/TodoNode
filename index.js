@@ -18,6 +18,7 @@ app.post('/add', function(req,res){
         task : req.body.task,
         category  : req.body.category,
         date : req.body.date,
+        tick : req.body.check
         
     },function(err,data){
         if(err){
